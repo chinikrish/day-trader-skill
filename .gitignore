@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.bak
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+
+# Build and operating-system files
+build/
+.DS_Store
+Thumbs.db
